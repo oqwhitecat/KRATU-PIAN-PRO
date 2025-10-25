@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "fdf4",
+      "title": "ทดสอบส่งกระทู้ผ่าน API จริง!",
+      "content": "เนื้อหานี้ถูกส่งมาจาก Postman และบันทึกลง db.json สำเร็จ",
+      "author": "Postman Tester",
+      "attachment": "api-test.png",
+      "likes": null
+    },
+    {
+      "id": "d6b1",
+      "title": "Final API Test Post",
+      "content": "This post was created via Postman to test the API.",
+      "author": "API_Tester"
+    }
+  ],
+  "comments": [],
+  "users": []
+}

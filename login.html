@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบ - กระทู้เพี้ยน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <a href="index.html" class="logo">กระทู้เพี้ยน</a>
+    <div class="nav-links">
+        <a href="register.html">สมัครสมาชิก</a>
+    </div>
+</nav>
+    <div class="form-card">
+        <form id="login-form">
+            <h2>เข้าสู่ระบบ</h2>
+            <p id="login-error" class="error-message"></p>
+            <div class="form-group">
+                <label for="username">ชื่อผู้ใช้</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">เข้าสู่ระบบ</button>
+            <p class="switch-form">ยังไม่มีบัญชี? <a href="register.html">สมัครสมาชิก</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

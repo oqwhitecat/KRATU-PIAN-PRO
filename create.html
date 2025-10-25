@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สร้างกระทู้ใหม่ - กระทู้เพี้ยน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="logo">กระทู้เพี้ยน</a>
+        <div class="nav-links">
+            <a href="#" id="logout-btn">ออกจากระบบ</a>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <!-- === โค้ดที่เพิ่มเข้ามา === -->
+        <a href="home.html" class="back-link">&larr; กลับไปหน้ากระทู้ทั้งหมด</a>
+        
+        <h2>สร้างกระทู้ใหม่</h2>
+        <form id="create-post-form">
+            <div class="form-group">
+                <label for="post-title">หัวข้อกระทู้</label>
+                <input type="text" id="post-title" required>
+            </div>
+            <div class="form-group">
+                <label for="post-content">เนื้อหา</label>
+                <textarea id="post-content" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="post-file">แนบไฟล์ (จำลอง)</label>
+                <input type="file" id="post-file">
+            </div>
+            <button type="submit">สร้างกระทู้</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": "6a47",
+      "title": "hello ชาวโลก",
+      "content": "วันนี้ วิธีทำขนมปัง\\nท่ขั้นตอนแรก...\\n\\n...\\nเพียงเท่านี้จบแล้วครับ ",
+      "author": "tatpong",
+      "attachment": "MashiroTsukiyuki.png",
+      "likes": 0
+    },
+    {
+      "id": "7680",
+      "title": "new ข่าวหนังสือพิมพ์",
+      "content": "new today ",
+      "author": "tatpong",
+      "attachment": "Aizen.png",
+      "likes": 19
+    },
+    {
+      "id": "2416",
+      "title": "สวัสดี",
+      "content": "สวัสดี kub",
+      "author": "new_user",
+      "attachment": "",
+      "likes": 0,
+      "createdAt": "2025-10-25T15:53:32.660Z"
+    },
+    {
+      "id": "d45e",
+      "title": "สวัสดี",
+      "content": "สวัสดี kub",
+      "author": "new_user",
+      "attachment": "",
+      "likes": 0,
+      "createdAt": "2025-10-25T15:53:51.670Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "51cf",
+      "postId": "7680",
+      "author": "tatpong",
+      "content": "123",
+      "createdAt": "2025-10-25T14:50:38.345Z"
+    }
+  ],
+  "users": []
+}
